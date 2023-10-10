@@ -1,4 +1,6 @@
-@tool extends TextureRect
+@tool
+@icon("icon.png")
+class_name QRCodeTextureRect extends TextureRect
 
 @export var data: String = "":
 	set(new_value):
